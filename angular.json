@@ -71,13 +71,11 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "gplaceapp:build:production",
-              "port": 4200
+              "browserTarget": "gplaceapp:build:production"
             },
             "development": {
-              "browserTarget": "gplaceapp:build:development",
-              "port": 4200
-            }
+              "browserTarget": "gplaceapp:build:development"
+          }
           },
           "defaultConfiguration": "development"
         },
